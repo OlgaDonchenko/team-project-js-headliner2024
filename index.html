@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/headliner-2024/assets/favicon-2b67835f.svg" type="image/svg+xml" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- modern-normalize -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+  <!-- css styles -->
+  
+  <script type="module" crossorigin src="/headliner-2024/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/headliner-2024/assets/vendor-ace87448.js">
+  <link rel="stylesheet" href="/headliner-2024/assets/vendor-d962af35.css">
+  <link rel="stylesheet" href="/headliner-2024/assets/index-c6bc7801.css">
+</head>
+
+<body>
+  <header class="header-section">
+  <div class="box-container container ">
+
+    <div class="logo-cont">
+      <picture>
+        <source media="(min-width:375px)" srcset="data:image/jpeg;base64,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 1x, /headliner-2024/assets/image2x-69bea2f6.jpg 2x" />
+        <img src="data:image/jpeg;base64,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" alt="logo" width="80" height="80" class="logo-img" />
+      </picture>
+
+      <img src="/headliner-2024/assets/logo-69890139.svg" alt="name" class="logo-svg">
+
+    </div>
+
+    <button type="button" class="button-menu">
+      <svg class="svg-x-mob" width="28" height="28">
+        <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-menu"></use>
+      </svg>
+    </button>
+
+    <div class="btn-menu">
+      <button class="menu-tablet-deck" type="button">
+        <span>Menu</span>
+      </button>
+    </div>
+
+    <a class="order-btn-menu" href="#footer-id">Order the project</a>
+
+  </div>
+
+  <div class="menu-under container visually-hidden">
+    <ul class="list-menu">
+      <li class="list-item">
+        <a class="anchor-menu" href="#about-me">About me</a>
+      </li>
+      <li class="list-item">
+        <a class="anchor-menu" href="#benefits-id">Benefits</a>
+      </li>
+      <li class="list-item">
+        <a class="anchor-menu" href="#projects-id">Projects</a>
+      </li>
+      <li class="list-item">
+        <a class="anchor-menu" href="#faq-section">FAQ</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+  <main>
+    <section id="hero-section" class="red">
+
+  <div class="container hero-container">
+
+    <h1 class="hero-title">
+      Hello. <br />
+      I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+
+    <ul class="hero-list">
+      <li class="hero-button-link hero-item">
+        <a class="hero-link" href="https://www.instagram.com/goitclub/" target="_blank">ig</a>
+      </li>
+      <li class="hero-item hero-button-link">
+        <a class="hero-link" href="https://www.facebook.com/goITclub/" target="_blank">fb</a>
+      </li>
+      <li class="hero-item hero-button-link">
+        <a class="hero-link" href="https://www.youtube.com/c/GoIT" target="_blank">yt</a>
+      </li>
+      <li class="hero-item hero-button-link">
+        <a class="hero-link" href="https://github.com/mtsiuniak/headliner-2024" target="_blank">gh</a>
+      </li>
+      <li class="hero-item hero-button-email">
+        <a class="hero-link-email" href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="about-section" id="about-me">
+  <div class="container">
+    <!-- General info -->
+    <h2 class="about-title visually-hidden">About me section</h2>
+    <div class="about-general-info">
+      <p class="about-general-info-text">
+        I work with people all over the world to create impressive and
+        <span class="first-word">functional</span>
+        <span class="second-word">websites</span> that reflect each client's
+        unique personality.
+      </p>
+      <picture>
+        <source
+          media="(min-width:1440px)"
+          srcset="/headliner-2024/assets/aboutme_desktop-47bd3820.jpg 1x, /headliner-2024/assets/aboutme_desktop@2x-842c1e4c.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/headliner-2024/assets/aboutme_tablet-5391df6f.jpg 1x, /headliner-2024/assets/aboutme_tablet@2x-52e17789.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="/headliner-2024/assets/aboutme_mobile-6bd719dd.jpg 1x, /headliner-2024/assets/aboutme_mobile@2x-c6ef9167.jpg 2x"
+          type="image/jpg"
+        />
+
+        <img
+          class="about-general-info-img"
+          src="/headliner-2024/assets/aboutme_mobile-6bd719dd.jpg"
+          alt="My photo"
+        />
+      </picture>
+    </div>
+
+    <!-- Detail info -->
+    <div>
+      <ul class="about-detail-info-list accordion-container" id="accordion1">
+        <li class="about-detail-info-item ac">
+          <h3 class="about-detail-info-title ac-header">
+            <span class="about-detail-info-title-text">about me</span>
+            <button
+              class="about-detail-info-btn ac-trigger"
+              type="button"
+              aria-label="accordion button"
+            >
+              <svg class="about-accordion-icon" aria-label="accordion icon">
+                <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <ul class="about-me-list ac-text">
+              <li class="about-me-item">
+                <p class="about-me-text">
+                  I am Lloyd Jefferson, a talented programmer with extensive
+                  expertise in software development. I have an understanding of
+                  different programming languages and technologies, always ready
+                  to improve my skills. I always follow the latest trends and
+                  look for unconventional, creative solutions to problems. I
+                  have a high level of analytical skills and am able to
+                  effectively solve even the most difficult tasks encountered on
+                  the way.
+                </p>
+              </li>
+              <li class="about-me-item">
+                <p class="about-me-text">
+                  Able to work both independently and in a team. I can
+                  effectively cooperate with colleagues, exchanging ideas and
+                  finding optimal solutions. Professional maturity allows you to
+                  calmly cope with challenges and stressful situations, while
+                  maintaining a high quality of work. <br />I am always looking
+                  for opportunities for self-improvement. I actively study new
+                  technologies and practices to stay abreast of the latest
+                  innovations. I have a strong understanding of various
+                  programming languages, frameworks and architectural concepts
+                  that allow me to create efficient and scalable software.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="about-detail-info-item ac">
+          <h3 class="about-detail-info-title ac-header">
+            <span class="about-detail-info-title-text">role</span>
+            <button
+              class="about-detail-info-btn ac-trigger"
+              type="button"
+              aria-label="accordion button"
+            >
+              <svg class="about-accordion-icon" aria-label="accordion icon">
+                <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <ul class="about-role-list ac-text">
+              <li class="about-role-item">
+                <p class="about-role-text">Frontend development</p>
+              </li>
+              <li class="about-role-item">
+                <p class="about-role-text">HeadlessCMS,Wordpress</p>
+              </li>
+              <li class="about-role-item">
+                <p class="about-role-text">Blender(enjoy)</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="about-detail-info-item ac">
+          <h3 class="about-detail-info-title ac-header">
+            <span class="about-detail-info-title-text">education</span>
+            <button
+              class="about-detail-info-btn ac-trigger"
+              type="button"
+              aria-label="accordion button"
+            >
+              <svg class="about-accordion-icon" aria-label="accordion icon">
+                <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <ul class="about-education-list ac-text">
+              <li class="about-education-item">
+                <p class="about-education-text">
+                  2018 - 2019 / Frontend Development Diploma, GoIT IT School,
+                  New York
+                </p>
+              </li>
+              <li class="about-education-item">
+                <p class="about-education-text">
+                  2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+                  School, New York
+                </p>
+              </li>
+              <li class="about-education-item">
+                <p class="about-education-text">
+                  2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+                </p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="about-skills-slider slider-container" id="slidertop1">
+      <div class="about-skills-container swiper swiper-container" id="swiper1">
+        <ul class="about-skills-list swiper-wrapper">
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">HTML/CSS</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">JavaScript</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">React</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">Node.js</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">React Native</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">Soft skills</p>
+          </li>
+          <li class="about-skills-item swiper-slide">
+            <p class="about-skills-title">Git</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="slider-top">
+        <div class="slider-buttons">
+          <button class="about-skills-button swiper-button-next" type="button">
+            <svg class="slider-button-arrow" aria-label="Slider button arrow">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-arrow-right-dark"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="benefits-section" id="benefits-id">
+  <div class="benefits-box container">
+    <h3 class="benefits-title">Benefits of working with me</h3>
+
+    <div class="benefits-list-and-btn">
+
+      <ul class="benefits-list">
+
+        <li class="benefits-card-item">
+          <div class="benefits-icon-accent">
+            <svg class="benefits-icon-form" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-user"></use>
+            </svg>
+          </div>
+          <div class="benefits-information">
+            <h3 class="benefits-name">Expertise</h3>
+            <p class="benefits-text">
+              As a highly experienced developer, I have deep knowledge of
+              programming and website development.
+            </p>
+          </div>
+        </li>
+
+        <li class="benefits-card-item">
+          <div class="benefits-icon-accent">
+            <svg class="benefits-icon-form" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-message-chat-circle"></use>
+            </svg>
+          </div>
+          <div class="benefits-information">
+            <h3 class="benefits-name">Communication</h3>
+            <p class="benefits-text">
+              Understanding your needs and wants is my priority and I am always
+              open to discussions and corrections.
+            </p>
+          </div>
+        </li>
+
+        <li class="benefits-card-item">
+          <div class="benefits-icon-accent">
+            <svg class="benefits-icon-form" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-brush"></use>
+            </svg>
+          </div>
+          <div class="benefits-information">
+            <h3 class="benefits-name">Art</h3>
+            <p class="benefits-text">
+              Thanks to my creative nature, I am ready to accept challenges and
+              help you bring your ideas to life.
+            </p>
+          </div>
+        </li>
+
+        <li class="benefits-card-item">
+          <div class="benefits-icon-accent">
+            <svg class="benefits-icon-form" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-hourglass"></use>
+            </svg>
+          </div>
+          <div class="benefits-information">
+            <h3 class="benefits-name">Urgent execution</h3>
+            <p class="benefits-text">
+              I understand how important time is to you. Ready to work quickly
+              and efficiently, without reducing the quality of work.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="benefits-box-btn">
+        <a class="benefits-order-btn" href='#footer-id'>
+          Order the project
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="projects-section" id="projects-id">
+  <div class="container">
+    <h3 class="projects-title">Projects</h3>
+
+    <div id="swiper2" class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="projects-container">
+            <div class="projects-first-container">
+              <div class="projects-cirkle-container">
+                <ul class="projects-circle-list">
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #react
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #node js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #git
+                  </li>
+                </ul>
+              </div>
+              <h3 class="projects-text">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h3>
+              <a
+                class="projects-btn"
+                href="https://github.com/mtsiuniak/headliner-2024"
+                target="_blank"
+                >See project</a
+              >
+            </div>
+            <div class="projects-second-container">
+              <div class="projects-image">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="/headliner-2024/assets/project-tab-desk1-8fafb134.jpg 1x, /headliner-2024/assets/project-tab-desk1@2x-c5a8dc0f.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="/headliner-2024/assets/project1mob-91651b2d.jpg 1x, /headliner-2024/assets/project1mob@2x-4ba464b8.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="/headliner-2024/assets/project1mob-91651b2d.jpg"
+                    alt="Image 1"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="projects-container">
+            <div class="projects-first-container">
+              <div class="projects-cirkle-container">
+                <ul class="projects-circle-list">
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #react
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #node js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #git
+                  </li>
+                </ul>
+              </div>
+              <h3 class="projects-text">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h3>
+              <button
+                class="projects-btn"
+                onclick="window.open('https://github.com/mtsiuniak/headliner-2024', 
+            '_blank')"
+              >
+                See project
+              </button>
+            </div>
+            <div class="projects-second-container">
+              <div class="projects-image">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="/headliner-2024/assets/project-tab-desk2-55a73814.jpg 1x, /headliner-2024/assets/project-tab-desk2@2x-fba0e39a.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="/headliner-2024/assets/project2mob-c4782cc2.jpg 1x, /headliner-2024/assets/project2mob@2x-69a219ab.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="/headliner-2024/assets/project2mob-c4782cc2.jpg"
+                    alt="Image 2"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="projects-container">
+            <div class="projects-first-container">
+              <div class="projects-cirkle-container">
+                <ul class="projects-circle-list">
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #react
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #node js
+                  </li>
+                  <li class="projects-circle-item">
+                    <p class="projects-circle"></p>
+                    #git
+                  </li>
+                </ul>
+              </div>
+              <h3 class="projects-text">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h3>
+              <button
+                class="projects-btn"
+                onclick="window.open('https://github.com/mtsiuniak/headliner-2024', 
+            '_blank')"
+              >
+                See project
+              </button>
+            </div>
+            <div class="projects-second-container">
+              <div class="projects-image">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="/headliner-2024/assets/project-tab-desk3-1689f0fe.jpg 1x, /headliner-2024/assets/project-tab-desk3@2x-bbf727ed.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="/headliner-2024/assets/project3mob-b07e478c.jpg 1x, /headliner-2024/assets/project3mob@2x-83464b98.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="/headliner-2024/assets/project3mob-b07e478c.jpg"
+                    alt="Image 1"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-swiper-pagination"></div>
+
+      <div class="projects-arrow-container">
+        <ul class="projects-arrow-list">
+          <li class="projects-arrow-item projects-btn-prev">
+            <button class="projects-arrow-accent btn-prev" id="btn-prev">
+              <svg class="projects-arrow-prev" width="24" height="24">
+                <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-arrow-left-dark"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="projects-arrow-item projects-btn-next">
+            <button class="projects-arrow-accent btn-next" id="btn-next">
+              <svg class="projects-arrow-next" width="24" height="24">
+                <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-arrow-right-white"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- html код для секції FAQ -->
+<section class="faq-section" id="faq-section">
+  <div class="container">
+    <h2 class="faq-title-section">FAQ</h2>
+
+    <ul class="faq-list accordion-container" id="accordion2">
+      <li class="faq-list-item ac ac-first">
+        <h3 class="first-header ac-header">
+          <span class="text-wrapper-first"
+            >What programming languages are most often used in your
+            project?</span
+          >
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+
+      <li class="faq-list-item ac ac-second">
+        <h3 class="ac-header second-header">
+          <span class="text-wrapper-second"
+            >What are the deadlines for the project?</span
+          >
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+
+      <li class="faq-list-item ac ac-third">
+        <h3 class="ac-header third-header">
+          <span class="text-wrapper-third"
+            >What payment methods do you accept?</span
+          >
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+
+      <li class="faq-list-item ac ac-fourth">
+        <h3 class="ac-header fourth-header">
+          <span class="text-wrapper-fourth">How can I contact you?</span>
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+
+      <li class="faq-list-item ac ac-fifth">
+        <h3 class="ac-header fifth-header">
+          <span class="text-wrapper-fifth"
+            >Do you provide advice or support?</span
+          >
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+
+      <li class="faq-list-item ac ac-six">
+        <h3 class="ac-header last-header">
+          <span class="text-wrapper-six"
+            >What does the process of developing a software product look like
+            from idea to implementation?</span
+          >
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-label="accordion button"
+          >
+            <svg class="faq-accordion-icon" aria-label="accordion icon">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <!-- html код для секції covers -->
+<section class="covers-section">
+  <div class="covers-container">
+    <h2 class="covers-title visually-hidden">Title for screen readers</h2>
+
+    <div class="content">
+      <div class="marquee">
+
+        <ul class="marquee__inner">
+
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle7@2x-60d38bdc.jpg 1089w, /headliner-2024/assets/Rectangle7-mobile@2x-49f3daeb.jpg 566w, /headliner-2024/assets/Rectangle7-875a3295.jpg 830w, /headliner-2024/assets/Rectangle7-mobile-0ab9b348.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle7-875a3295.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle8@2x-cc90f6f2.jpg 1089w, /headliner-2024/assets/Rectangle8-mobile@2x-78bbcfcb.jpg 566w, /headliner-2024/assets/Rectangle8-4a2fef59.jpg 830w, /headliner-2024/assets/Rectangle8-mobile-6b103700.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle8-4a2fef59.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle9@2x-66e8422e.jpg 1089w, /headliner-2024/assets/Rectangle9-mobile@2x-fc7fe31f.jpg 566w, /headliner-2024/assets/Rectangle9-87e7a0ee.jpg 830w, /headliner-2024/assets/Rectangle9-mobile-e9e3f2d9.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle9-87e7a0ee.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle1@2x-78b499e8.jpg 1089w, /headliner-2024/assets/Rectangle1-mobile@2x-3a8d9b03.jpg 566w, /headliner-2024/assets/Rectangle1-81afe10e.jpg 830w, /headliner-2024/assets/Rectangle1-mobile-6b5cc581.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle1-81afe10e.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle10@2x-98db2ec4.jpg 1089w, /headliner-2024/assets/Rectangle10-mobile@2x-daa52bed.jpg 566w, /headliner-2024/assets/Rectangle10-7f1522bf.jpg 830w, /headliner-2024/assets/Rectangle10-mobile-00babe15.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle10-7f1522bf.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle11@2x-c556f622.jpg 1089w, /headliner-2024/assets/Rectangle11-mobile@2x-8423edc4.jpg 566w, /headliner-2024/assets/Rectangle11-66549956.jpg 830w, /headliner-2024/assets/Rectangle11-mobile-0860b75c.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle11-66549956.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle12@2x-2b9e2358.jpg 1089w, /headliner-2024/assets/Rectangle12-mobile@2x-139f9ffe.jpg 566w, /headliner-2024/assets/Rectangle12-1b522989.jpg 830w, /headliner-2024/assets/Rectangle12-mobile-a1f999fd.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle12-1b522989.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle4@2x-e2d77886.jpg 1089w, /headliner-2024/assets/Rectangle4-mobile@2x-4070fbc9.jpg 566w, /headliner-2024/assets/Rectangle4-ebbf9a49.jpg 830w, /headliner-2024/assets/Rectangle4-mobile-f1b13aa7.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle4-ebbf9a49.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle5@2x-9e9cf21c.jpg 1089w, /headliner-2024/assets/Rectangle5-mobile@2x-b86565d4.jpg 566w, /headliner-2024/assets/Rectangle5-353d9807.jpg 830w, /headliner-2024/assets/Rectangle5-mobile-b2a3f6de.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle5-353d9807.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle6@2x-3217052f.jpg 1089w, /headliner-2024/assets/Rectangle6-mobile@2x-08122e74.jpg 566w, /headliner-2024/assets/Rectangle6-e6f7687a.jpg 830w, /headliner-2024/assets/Rectangle6-mobile-472998a3.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                  (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle6-e6f7687a.jpg" alt="project" />
+          </li>
+        </ul>
+
+        <ul class="marquee__inner">
+
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle10@2x-98db2ec4.jpg 1089w, /headliner-2024/assets/Rectangle10-mobile@2x-daa52bed.jpg 566w, /headliner-2024/assets/Rectangle10-7f1522bf.jpg 830w, /headliner-2024/assets/Rectangle10-mobile-00babe15.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle10-7f1522bf.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle11@2x-c556f622.jpg 1089w, /headliner-2024/assets/Rectangle11-mobile@2x-8423edc4.jpg 566w, /headliner-2024/assets/Rectangle11-66549956.jpg 830w, /headliner-2024/assets/Rectangle11-mobile-0860b75c.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle11-66549956.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle12@2x-2b9e2358.jpg 1089w, /headliner-2024/assets/Rectangle12-mobile@2x-139f9ffe.jpg 566w, /headliner-2024/assets/Rectangle12-1b522989.jpg 830w, /headliner-2024/assets/Rectangle12-mobile-a1f999fd.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle12-1b522989.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle4@2x-e2d77886.jpg 1089w, /headliner-2024/assets/Rectangle4-mobile@2x-4070fbc9.jpg 566w, /headliner-2024/assets/Rectangle4-ebbf9a49.jpg 830w, /headliner-2024/assets/Rectangle4-mobile-f1b13aa7.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle4-ebbf9a49.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle5@2x-9e9cf21c.jpg 1089w, /headliner-2024/assets/Rectangle5-mobile@2x-b86565d4.jpg 566w, /headliner-2024/assets/Rectangle5-353d9807.jpg 830w, /headliner-2024/assets/Rectangle5-mobile-b2a3f6de.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle5-353d9807.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle6@2x-3217052f.jpg 1089w, /headliner-2024/assets/Rectangle6-mobile@2x-08122e74.jpg 566w, /headliner-2024/assets/Rectangle6-e6f7687a.jpg 830w, /headliner-2024/assets/Rectangle6-mobile-472998a3.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle6-e6f7687a.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle7@2x-60d38bdc.jpg 1089w, /headliner-2024/assets/Rectangle7-mobile@2x-49f3daeb.jpg 566w, /headliner-2024/assets/Rectangle7-875a3295.jpg 830w, /headliner-2024/assets/Rectangle7-mobile-0ab9b348.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle7-875a3295.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle8@2x-cc90f6f2.jpg 1089w, /headliner-2024/assets/Rectangle8-mobile@2x-78bbcfcb.jpg 566w, /headliner-2024/assets/Rectangle8-4a2fef59.jpg 830w, /headliner-2024/assets/Rectangle8-mobile-6b103700.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle8-4a2fef59.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle9@2x-66e8422e.jpg 1089w, /headliner-2024/assets/Rectangle9-mobile@2x-fc7fe31f.jpg 566w, /headliner-2024/assets/Rectangle9-87e7a0ee.jpg 830w, /headliner-2024/assets/Rectangle9-mobile-e9e3f2d9.jpg 284w" sizes="(min-width:768px) 830px,        
+                                      (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle9-87e7a0ee.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle1@2x-78b499e8.jpg 1089w, /headliner-2024/assets/Rectangle1-mobile@2x-3a8d9b03.jpg 566w, /headliner-2024/assets/Rectangle1-81afe10e.jpg 830w, /headliner-2024/assets/Rectangle1-mobile-6b5cc581.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle1-81afe10e.jpg" alt="project" />
+          </li>
+        </ul>
+
+        <ul class="marquee__inner">
+
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle4@2x-e2d77886.jpg 1089w, /headliner-2024/assets/Rectangle4-mobile@2x-4070fbc9.jpg 566w, /headliner-2024/assets/Rectangle4-ebbf9a49.jpg 830w, /headliner-2024/assets/Rectangle4-mobile-f1b13aa7.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle4-ebbf9a49.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle5@2x-9e9cf21c.jpg 1089w, /headliner-2024/assets/Rectangle5-mobile@2x-b86565d4.jpg 566w, /headliner-2024/assets/Rectangle5-353d9807.jpg 830w, /headliner-2024/assets/Rectangle5-mobile-b2a3f6de.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle5-353d9807.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle6@2x-3217052f.jpg 1089w, /headliner-2024/assets/Rectangle6-mobile@2x-08122e74.jpg 566w, /headliner-2024/assets/Rectangle6-e6f7687a.jpg 830w, /headliner-2024/assets/Rectangle6-mobile-472998a3.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle6-e6f7687a.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle7@2x-60d38bdc.jpg 1089w, /headliner-2024/assets/Rectangle7-mobile@2x-49f3daeb.jpg 566w, /headliner-2024/assets/Rectangle7-875a3295.jpg 830w, /headliner-2024/assets/Rectangle7-mobile-0ab9b348.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle7-875a3295.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle8@2x-cc90f6f2.jpg 1089w, /headliner-2024/assets/Rectangle8-mobile@2x-78bbcfcb.jpg 566w, /headliner-2024/assets/Rectangle8-4a2fef59.jpg 830w, /headliner-2024/assets/Rectangle8-mobile-6b103700.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle8-4a2fef59.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle9@2x-66e8422e.jpg 1089w, /headliner-2024/assets/Rectangle9-mobile@2x-fc7fe31f.jpg 566w, /headliner-2024/assets/Rectangle9-87e7a0ee.jpg 830w, /headliner-2024/assets/Rectangle9-mobile-e9e3f2d9.jpg 284w" sizes="(min-width:768px) 830px,        
+                                              (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle9-87e7a0ee.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle1@2x-78b499e8.jpg 1089w, /headliner-2024/assets/Rectangle1-mobile@2x-3a8d9b03.jpg 566w, /headliner-2024/assets/Rectangle1-81afe10e.jpg 830w, /headliner-2024/assets/Rectangle1-mobile-6b5cc581.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle1-81afe10e.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle10@2x-98db2ec4.jpg 1089w, /headliner-2024/assets/Rectangle10-mobile@2x-daa52bed.jpg 566w, /headliner-2024/assets/Rectangle10-7f1522bf.jpg 830w, /headliner-2024/assets/Rectangle10-mobile-00babe15.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle10-7f1522bf.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle11@2x-c556f622.jpg 1089w, /headliner-2024/assets/Rectangle11-mobile@2x-8423edc4.jpg 566w, /headliner-2024/assets/Rectangle11-66549956.jpg 830w, /headliner-2024/assets/Rectangle11-mobile-0860b75c.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle11-66549956.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle12@2x-2b9e2358.jpg 1089w, /headliner-2024/assets/Rectangle12-mobile@2x-139f9ffe.jpg 566w, /headliner-2024/assets/Rectangle12-1b522989.jpg 830w, /headliner-2024/assets/Rectangle12-mobile-a1f999fd.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                        (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle12-1b522989.jpg" alt="project" />
+          </li>
+        </ul>
+
+        <ul class="marquee__inner">
+
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle7@2x-60d38bdc.jpg 1089w, /headliner-2024/assets/Rectangle7-mobile@2x-49f3daeb.jpg 566w, /headliner-2024/assets/Rectangle7-875a3295.jpg 830w, /headliner-2024/assets/Rectangle7-mobile-0ab9b348.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle7-875a3295.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle8@2x-cc90f6f2.jpg 1089w, /headliner-2024/assets/Rectangle8-mobile@2x-78bbcfcb.jpg 566w, /headliner-2024/assets/Rectangle8-4a2fef59.jpg 830w, /headliner-2024/assets/Rectangle8-mobile-6b103700.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle8-4a2fef59.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle9@2x-66e8422e.jpg 1089w, /headliner-2024/assets/Rectangle9-mobile@2x-fc7fe31f.jpg 566w, /headliner-2024/assets/Rectangle9-87e7a0ee.jpg 830w, /headliner-2024/assets/Rectangle9-mobile-e9e3f2d9.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle9-87e7a0ee.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle1@2x-78b499e8.jpg 1089w, /headliner-2024/assets/Rectangle1-mobile@2x-3a8d9b03.jpg 566w, /headliner-2024/assets/Rectangle1-81afe10e.jpg 830w, /headliner-2024/assets/Rectangle1-mobile-6b5cc581.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle1-81afe10e.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle10@2x-98db2ec4.jpg 1089w, /headliner-2024/assets/Rectangle10-mobile@2x-daa52bed.jpg 566w, /headliner-2024/assets/Rectangle10-7f1522bf.jpg 830w, /headliner-2024/assets/Rectangle10-mobile-00babe15.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle10-7f1522bf.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle11@2x-c556f622.jpg 1089w, /headliner-2024/assets/Rectangle11-mobile@2x-8423edc4.jpg 566w, /headliner-2024/assets/Rectangle11-66549956.jpg 830w, /headliner-2024/assets/Rectangle11-mobile-0860b75c.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle11-66549956.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle12@2x-2b9e2358.jpg 1089w, /headliner-2024/assets/Rectangle12-mobile@2x-139f9ffe.jpg 566w, /headliner-2024/assets/Rectangle12-1b522989.jpg 830w, /headliner-2024/assets/Rectangle12-mobile-a1f999fd.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle12-1b522989.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle4@2x-e2d77886.jpg 1089w, /headliner-2024/assets/Rectangle4-mobile@2x-4070fbc9.jpg 566w, /headliner-2024/assets/Rectangle4-ebbf9a49.jpg 830w, /headliner-2024/assets/Rectangle4-mobile-f1b13aa7.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle4-ebbf9a49.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle5@2x-9e9cf21c.jpg 1089w, /headliner-2024/assets/Rectangle5-mobile@2x-b86565d4.jpg 566w, /headliner-2024/assets/Rectangle5-353d9807.jpg 830w, /headliner-2024/assets/Rectangle5-mobile-b2a3f6de.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle5-353d9807.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle6@2x-3217052f.jpg 1089w, /headliner-2024/assets/Rectangle6-mobile@2x-08122e74.jpg 566w, /headliner-2024/assets/Rectangle6-e6f7687a.jpg 830w, /headliner-2024/assets/Rectangle6-mobile-472998a3.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle6-e6f7687a.jpg" alt="project" />
+          </li>
+        </ul>
+
+        <ul class="marquee__inner">
+
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle12@2x-2b9e2358.jpg 1089w, /headliner-2024/assets/Rectangle12-mobile@2x-139f9ffe.jpg 566w, /headliner-2024/assets/Rectangle12-1b522989.jpg 830w, /headliner-2024/assets/Rectangle12-mobile-a1f999fd.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle12-1b522989.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle4@2x-e2d77886.jpg 1089w, /headliner-2024/assets/Rectangle4-mobile@2x-4070fbc9.jpg 566w, /headliner-2024/assets/Rectangle4-ebbf9a49.jpg 830w, /headliner-2024/assets/Rectangle4-mobile-f1b13aa7.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle4-ebbf9a49.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle5@2x-9e9cf21c.jpg 1089w, /headliner-2024/assets/Rectangle5-mobile@2x-b86565d4.jpg 566w, /headliner-2024/assets/Rectangle5-353d9807.jpg 830w, /headliner-2024/assets/Rectangle5-mobile-b2a3f6de.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle5-353d9807.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle6@2x-3217052f.jpg 1089w, /headliner-2024/assets/Rectangle6-mobile@2x-08122e74.jpg 566w, /headliner-2024/assets/Rectangle6-e6f7687a.jpg 830w, /headliner-2024/assets/Rectangle6-mobile-472998a3.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle6-e6f7687a.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle7@2x-60d38bdc.jpg 1089w, /headliner-2024/assets/Rectangle7-mobile@2x-49f3daeb.jpg 566w, /headliner-2024/assets/Rectangle7-875a3295.jpg 830w, /headliner-2024/assets/Rectangle7-mobile-0ab9b348.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle7-875a3295.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle8@2x-cc90f6f2.jpg 1089w, /headliner-2024/assets/Rectangle8-mobile@2x-78bbcfcb.jpg 566w, /headliner-2024/assets/Rectangle8-4a2fef59.jpg 830w, /headliner-2024/assets/Rectangle8-mobile-6b103700.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle8-4a2fef59.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle9@2x-66e8422e.jpg 1089w, /headliner-2024/assets/Rectangle9-mobile@2x-fc7fe31f.jpg 566w, /headliner-2024/assets/Rectangle9-87e7a0ee.jpg 830w, /headliner-2024/assets/Rectangle9-mobile-e9e3f2d9.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                          (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle9-87e7a0ee.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle1@2x-78b499e8.jpg 1089w, /headliner-2024/assets/Rectangle1-mobile@2x-3a8d9b03.jpg 566w, /headliner-2024/assets/Rectangle1-81afe10e.jpg 830w, /headliner-2024/assets/Rectangle1-mobile-6b5cc581.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                    (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle1-81afe10e.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle10@2x-98db2ec4.jpg 1089w, /headliner-2024/assets/Rectangle10-mobile@2x-daa52bed.jpg 566w, /headliner-2024/assets/Rectangle10-7f1522bf.jpg 830w, /headliner-2024/assets/Rectangle10-mobile-00babe15.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                    (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle10-7f1522bf.jpg" alt="project" />
+          </li>
+          <li class="marquee__line">
+            <img srcset="/headliner-2024/assets/Rectangle11@2x-c556f622.jpg 1089w, /headliner-2024/assets/Rectangle11-mobile@2x-8423edc4.jpg 566w, /headliner-2024/assets/Rectangle11-66549956.jpg 830w, /headliner-2024/assets/Rectangle11-mobile-0860b75c.jpg 284w" sizes="(min-width:768px) 830px,        
+                                                                    (max-width:767px) 284px"
+              src="/headliner-2024/assets/Rectangle11-66549956.jpg" alt="project" />
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+    <section class="reviews-section" id="reviews">
+  <div class="reviews-container">
+    <h2 class="reviews-title">Reviews</h2>
+
+    <div class="swiper" id="swiper3">
+      <!-- Additional required wrapper -->
+      <p class="show-news"></p>
+      <ul class=" swiper-wrapper" id="review-swiper-list">
+        <!-- Slides -->
+      </ul>
+
+      <div class="my-swiper-buttons slider-buttons">
+        <div class="review-btn-prev">
+          <button class="my-swiper-button-prev btn-prev-review">
+            <svg class="reviews-arrow-left review-arrow-prev" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-arrow-left-dark"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="review-btn-next">
+          <button class="my-swiper-button-next btn-next-review">
+            <svg class="reviews-arrow-right review-arrow-next" width="24" height="24">
+              <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-arrow-right-white"></use>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- html код для секції work together -->
+<footer id="footer-id">
+  <div class="container footer-container">
+    <div class="title-box">
+      <picture>
+        <source media="(min-width:768px)" srcset="data:image/png;base64,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 1x, /headliner-2024/assets/footer-foto-desktop@2x-659a3e3c.png 2x" type="image/png" />
+        <source media="(max-width:767px)" srcset="data:image/png;base64,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 1x, /headliner-2024/assets/footer_photo@2x-dff46fd8.png 2x" type="image/png" />
+
+        <img class=" " src="data:image/png;base64,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" alt="foto" loading="lazy" />
+      </picture>
+      <h2 class="footer-title">Let’s <span class="accent-color">work</span></h2>
+      <h2 class="footer-title">together</h2>
+    </div>
+    <form class="footer-form">
+      <input class="form-item" type="email" name="email" placeholder="clients@gmail.com"
+        pattern="(^[^\s@]+@[^\s@]+\.[^\s@]+$)" autocomplete="off" required />
+      <input class="form-item" type="text" name="comments" placeholder="comments" autocomplete="off" required />
+      <button type="submit" class="btn-submit">Send</button>
+    </form>
+    <ul>
+      <li class="footer-link">
+        <a href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+      </li>
+      <li class="footer-link">
+        <a href="tel:+3801111111111">+380 11 1111 11 11</a>
+      </li>
+    </ul>
+  </div>
+  <div class="modal-background">
+    <div class="modal container">
+      <h3 class="modal-title">Thank you for your interest in cooperation!</h3>
+      <p class="modal-text">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+      <svg class="modal-close" width="22" height="22">
+        <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-close"></use>
+      </svg>
+    </div>
+  </div>
+</footer>
+  <!-- html код для секції mobile menu -->
+<div class="menu-box image-mob-menu visually-hidden">
+    <button type="button" class="button-mob-menu">
+      <svg class="svg-x-mob" width="28" height="28">
+        <use href="/headliner-2024/assets/icon-cda017c3.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <ul class="mob-list-menu">
+      <li class="mob-list-item">
+        <a class="anchor-header-menu" href="#about-me">About me</a>
+      </li>
+      <li class="mob-list-item"> 
+        <a class="anchor-header-menu" href="#benefits-id">Benefits</a>
+      </li>
+      <li class="mob-list-item">
+        <a class="anchor-header-menu " href="#projects-id">Projects</a>
+      </li>
+      <li class="mob-list-item">
+        <a class="anchor-header-menu" href="#faq-section">FAQ</a>
+      </li>
+    </ul>
+<div class="order-menu-mob">
+      <a class="order-btn-menu-mob" href="#footer-id">Order the project</a>
+  </div>
+</div>
+
+
+  
+</body>
+
+</html>
